@@ -1,0 +1,152 @@
+That's great you're learning Python! Here's a structured list of **100 Python problems**, categorized from **scratch to intermediate**, grouped by **topics**. These cover core programming concepts, logic building, and practical implementation.
+
+---
+
+## 🟢 Beginner Level (Problems 1–40)
+
+### 🔹 1. Variables & Data Types (1–5)
+
+1. Print "Hello, World!"
+2. Assign your name to a variable and print it.
+3. Store age in a variable and print it.
+4. Swap two numbers using a third variable.
+5. Swap two numbers without using a third variable.
+
+### 🔹 2. Input & Output (6–10)
+
+6. Take name as input and greet the user.
+7. Input two numbers and print their sum.
+8. Input a number and check if it's positive, negative, or zero.
+9. Convert temperature from Celsius to Fahrenheit.
+10. Take user input of 3 subjects and print their average.
+
+### 🔹 3. Operators (11–15)
+
+11. Find the remainder when one number is divided by another.
+12. Check if a number is even or odd.
+13. Use logical operators to check if a number lies between 10 and 50.
+14. Calculate compound interest.
+15. Write a program to find square and cube of a number.
+
+### 🔹 4. Conditional Statements (16–20)
+
+16. Check if a year is a leap year.
+17. Find the greatest of three numbers.
+18. Write a calculator using `if-elif-else`.
+19. Check if a number is divisible by both 5 and 7.
+20. Categorize age into child, teen, adult, senior.
+
+### 🔹 5. Loops (21–30)
+
+21. Print numbers from 1 to 100.
+22. Print all even numbers between 1 and 50.
+23. Calculate the factorial of a number.
+24. Print multiplication table of any number.
+25. Calculate the sum of digits of a number.
+26. Reverse a number.
+27. Count digits in a number.
+28. Print a right-angled triangle using `*`.
+29. Check if a number is a palindrome.
+30. Check if a number is a prime number.
+
+### 🔹 6. Strings (31–40)
+
+31. Check if a string is a palindrome.
+32. Count vowels in a string.
+33. Convert a string to uppercase and lowercase.
+34. Replace spaces with hyphens in a string.
+35. Count the number of words in a string.
+36. Remove punctuation from a string.
+37. Check if a word is an anagram of another.
+38. Reverse a string without using slicing.
+39. Find frequency of each character.
+40. Capitalize the first letter of each word.
+
+---
+
+## 🟡 Intermediate Level (Problems 41–100)
+
+### 🔹 7. Lists & Tuples (41–55)
+
+41. Find the max and min in a list.
+42. Sum all elements in a list.
+43. Find duplicates in a list.
+44. Remove duplicates from a list.
+45. Sort a list without using the built-in `sort()`.
+46. Merge two lists.
+47. Reverse a list using loop.
+48. Find the second largest number in a list.
+49. Rotate a list by n elements.
+50. Convert a list to a tuple.
+51. Find common elements in two lists.
+52. Flatten a nested list.
+53. Remove all even numbers from a list.
+54. Count occurrences of an element in a list.
+55. Print elements at even positions in a list.
+
+### 🔹 8. Dictionaries & Sets (56–65)
+
+56. Count character frequency using a dictionary.
+57. Convert two lists into a dictionary.
+58. Merge two dictionaries.
+59. Sort a dictionary by values.
+60. Check if a key exists in a dictionary.
+61. Find the highest 3 values in a dictionary.
+62. Remove duplicates from a list using set.
+63. Perform union, intersection on two sets.
+64. Find difference between two sets.
+65. Convert a dictionary to list of tuples.
+
+### 🔹 9. Functions (66–75)
+
+66. Write a function to add two numbers.
+67. Function to check if a number is prime.
+68. Function to find factorial of a number.
+69. Function to check if string is palindrome.
+70. Function to return Fibonacci series up to n.
+71. Recursive function to calculate power of a number.
+72. Lambda function to square a number.
+73. Use `*args` and `**kwargs` in a function.
+74. Function to reverse a list.
+75. Write a function to flatten a list.
+
+### 🔹 10. File Handling (76–80)
+
+76. Read a text file and print its contents.
+77. Write user input to a file.
+78. Count number of lines in a file.
+79. Append data to a file.
+80. Read file line by line and print line numbers.
+
+### 🔹 11. Comprehensions (81–85)
+
+81. List of squares from 1 to 10 using list comprehension.
+82. Create a dictionary from 1 to 5 with squares as values.
+83. Extract all vowels from a string using list comprehension.
+84. Create a set of even numbers from 1 to 20.
+85. Use nested list comprehension to create 3x3 matrix.
+
+### 🔹 12. Error Handling (86–90)
+
+86. Handle division by zero.
+87. Handle file not found error.
+88. Create a custom exception.
+89. Try to convert a string to int and catch errors.
+90. Handle multiple exceptions in one block.
+
+### 🔹 13. Object-Oriented Programming (91–100)
+
+91. Create a class `Person` with name and age.
+92. Add a method to display info.
+93. Create a class with constructor (`__init__`).
+94. Inherit a class from another class.
+95. Override a method in child class.
+96. Create a class method using `@classmethod`.
+97. Create a static method.
+98. Create private attributes.
+99. Create a simple bank account class.
+100. Use `__str__()` method to print class object.
+
+---
+
+Would you like me to generate a **PDF version** or help you **track your progress** through these?
