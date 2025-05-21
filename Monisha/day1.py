@@ -101,4 +101,40 @@ else:
     print("Not a leap year")
 
 
-#
+#17  Find the greatest of three numbers.
+n1 = int(input("Enter first number : "))
+n2 = int(input("Enter second number : "))
+n3 = int(input("Enter third number : "))
+if(n1>n2 and n1>n3):
+    print(n1,"is greater")
+elif(n2>n1 and n2>n3):
+    print(n2, "is greater")
+else:
+    print(n3, "is greater")
+
+#18 Write a calculator using `if-elif-else`.
+n1 = int(input("Enter first number : "))
+operator = input("Enter any operator : ")
+n2 = int(input("Enter second number : "))
+if(operator == "+"):
+    sum = n1+n2
+    print("sum of two numbers is : ", sum)
+elif(operator == "-"):
+    sub = n1-n2
+    print("sub of two numbers is : ", sub)
+elif(operator == "*"):
+    multi = n1*n2
+    print("multiplication of two numbers is : ", multi)
+elif(operator == "/"):
+    division = n1/n2
+    print("division of two numbers is : ", division)
+else:
+    print("Please enter operator between (+, =, /, *)")
+
+
+#19 Check if a number is divisible by both 5 and 7.
+number =  int(input("Enter any number : "))
+if(number%5==0 and number%7==0):
+    print("number is divisible by both 5 and 7 ")
+else:
+    print("number is not divisible by both 5 and 7 ")
