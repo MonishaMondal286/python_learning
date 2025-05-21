@@ -138,3 +138,16 @@ if(number%5==0 and number%7==0):
     print("number is divisible by both 5 and 7 ")
 else:
     print("number is not divisible by both 5 and 7 ")
+
+#20 Categorize age into child, teen, adult, senior.
+age  =  int(input("Enter the age : "))
+if(age>1 and age<=12):
+    print("person is child ")
+elif(age>=13 and age<18):
+    print("person is teen ")
+elif(age>=18 and age>=30):
+    print("person is adult")
+elif(age>30):
+    print("person is a senior citizen")
+else:
+    print("Enter a valid age ")
