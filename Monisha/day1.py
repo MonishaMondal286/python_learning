@@ -151,3 +151,59 @@ elif(age>30):
     print("person is a senior citizen")
 else:
     print("Enter a valid age ")
+
+
+#21 Print numbers from 1 to 100.
+i=1
+while(i<=100):
+    print(i)
+    i = i+1
+
+#22  Print all even numbers between 1 and 50.
+for i in range(1,51):
+    if(i%2==0):
+        print(i)
+
+#23 Calculate the factorial of a number.
+n = int(input("Enter any number : "))
+bag = 1
+for n in range(1,n):
+    n = n+1
+    bag = bag*n
+print(bag)
+
+#24  Print multiplication table of any number.
+n = int(input("Enter any number : "))
+for i in range(1,11):
+    print(n,"*", i, "=", i*n)
+
+#25 Calculate the sum of digits of a number.
+n = int(input("Enter any number : "))
+total = 0
+while n>0:
+    digit = n%10 #get the last digit 
+    total = total+digit
+    n = n//10
+print(total)
+
+#26 Reverse a number.
+n = int(input("Enter a number : "))
+rev = 0
+while(n>0):
+    digit =  n%10   #get the last digit 
+    rev = rev*10 + digit #reverse a number 
+    n = n//10 #remove the last digit 
+print(rev)
+
+#27 Count digits in a number.
+n = int(input("Enter a number : "))
+count = 0
+if(n==0):
+    print(1)
+else:
+    while(n>0):
+        n = n//10
+        count += 1
+    print(count)
+
+#28  Print a right-angled triangle using `*`   

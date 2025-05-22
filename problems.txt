@@ -45,7 +45,7 @@ That's great you're learning Python! Here's a structured list of **100 Python pr
 25. Calculate the sum of digits of a number.
 26. Reverse a number.
 27. Count digits in a number.
-28. Print a right-angled triangle using `*`.
+28. Print a right-angled triangle using `*`.      --LEFT
 29. Check if a number is a palindrome.
 30. Check if a number is a prime number.
 
