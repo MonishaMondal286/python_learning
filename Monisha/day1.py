@@ -207,3 +207,35 @@ else:
     print(count)
 
 #28  Print a right-angled triangle using `*`   
+n = int(input("Enter any number : "))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print("*", end=" ")
+    print()
+
+
+#29 Check if a number is a palindrome.
+n = int(input("Enter any number : "))
+org = n
+rev = 0
+while (n>0):
+    digit = n%10    #get the last digit 
+    rev = rev*10+digit
+    final = n//10
+if(org == rev):
+    print("number is palindrome")
+else:
+    print("number is not a palindrome")
+
+#30 Check if a number is a prime number.
+n = int(input("Enter a number : "))
+
+if(n<=1):
+    print("not a prime")
+
+else:
+    for i in range(2,n):
+        if(n%i==0):
+            print("not prime")
+        else:
+             print("prime")
