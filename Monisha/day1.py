@@ -324,3 +324,10 @@ for i in job:
         freq[i] = 1
 
 print(freq)
+
+
+#40 Capitalize the first letter of each word.
+job = "software developer"
+print(job.title())
+
+#41 
