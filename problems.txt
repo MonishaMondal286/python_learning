@@ -149,4 +149,3 @@ That's great you're learning Python! Here's a structured list of **100 Python pr
 
 ---
 
-Would you like me to generate a **PDF version** or help you **track your progress** through these?

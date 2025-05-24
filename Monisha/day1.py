@@ -239,3 +239,88 @@ else:
             print("not prime")
         else:
              print("prime")
+
+'''
+string methods 
+str = "i am a software developer"
+print(str.endswith("per"))
+print(str.capitalize())
+print(str.replace("a", "an"))
+print(str.find("developer"))
+print(str.count("a"))
+'''
+
+#31 Check if a string is a palindrome.
+job = "Software Developer"
+print(len(job))
+print(job[-1:-19:-1])   #-1 in the last helps to move backwards 
+
+
+#32 Count vowels in a string.
+job = "Software Developer"
+vowels = "aeiouAEIOU"
+count = 0
+for i in range(len(job)):  #i till length of job
+    if job[i] in vowels:
+        count+=1
+print(count)
+
+#33 Convert a string to uppercase and lowercase.
+job  = "Software Developer "
+print(job.lower())
+print(job.upper())
+
+#34 Replace spaces with hyphens in a string.
+job = "I am a Software Developer"
+print(job.replace(" ", "-"))
+
+#35 Count the number of words in a string.
+office =  "I am a Software Developer at TCS"
+text = office.split()
+print(len(text))
+
+#36  Remove punctuation from a string.
+job = "I am a Developer at TCS, I earn 50000 per month"
+result = ""
+for i in job:
+    if(i!="," and i!="."):
+        result+=i
+print(result )
+
+#37 Check if a word is an anagram of another.
+text = "worth"
+word = "throw"
+text_1 = text.lower()
+word_1 = word.lower()
+text_2 = sorted(text_1)
+word_2 = sorted(text_2)
+if(text_2 == word_2):
+    print("anagram")
+else:
+    print("not anagram")
+
+
+#38 Reverse a string without using slicing.
+job = "software developer"
+rev = ""
+for i in job:
+    rev = i+rev
+
+print(rev)
+
+#39 Find frequency of each character.
+job = "software developer"
+print(job.count("a"))
+    
+
+#40  Find frequency of each character.
+job = "software developer"
+freq = {}
+for i in job:
+    if i in freq:
+        freq[i] +=1
+
+    else:
+        freq[i] = 1
+
+print(freq)
