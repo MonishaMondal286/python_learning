@@ -70,13 +70,13 @@ That's great you're learning Python! Here's a structured list of **100 Python pr
 
 41. Find the max and min in a list.
 42. Sum all elements in a list.
-43. Find duplicates in a list.
-44. Remove duplicates from a list.
-45. Sort a list without using the built-in `sort()`.
+43. Find duplicates in a list.   #not done 
+44. Remove duplicates from a list. 
+45. Sort a list without using the built-in `sort()`.  #not done 
 46. Merge two lists.
 47. Reverse a list using loop.
 48. Find the second largest number in a list.
-49. Rotate a list by n elements.
+49. Rotate a list by n elements.    #not done 
 50. Convert a list to a tuple.
 51. Find common elements in two lists.
 52. Flatten a nested list.

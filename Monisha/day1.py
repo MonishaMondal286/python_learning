@@ -330,4 +330,57 @@ print(freq)
 job = "software developer"
 print(job.title())
 
-#41 
+#41 Find the max and min in a list.
+list = [3,2,5,6,9,10]
+list.sort()
+print("min number is", list[0], "and max number is", list[-1])
+
+#42 Sum all elements in a list.
+list = [13,4,6,89,76]
+add = 0
+for i in list:
+    add  = i+add
+
+print(add)
+
+#43 Merge two lists.
+list1 = [13,4,6,89,76,76]
+list2 = [13,4,6,89,76,76]
+print(list1+list2)
+
+
+#44 Remove duplicates from a list. 
+list = [5,3,2,5,6,8]
+new_list = []
+
+for i in list:
+    if i not in new_list:
+        new_list.append()
+print(new_list)
+
+#45 Reverse a list using loop.
+num = [5,3,6,8,3,6]
+new = num[-1:-7:-1]
+print(new)
+
+
+#46 Find the second largest number in a list.
+bag = [5,2,4,8,3,6]
+bag.sort()
+print(bag[1])
+
+
+#47  Sort a list without using the built-in `sort()`.
+bag = [2,3,5,2,3]
+bin =  tuple(bag)
+print(bin)
+
+#48 Find common elements in two lists.
+l1 = [1,2,3]
+l2 = [2,5,6]
+for i in l1:
+    for j in l2:
+        if(i == j):
+            print(i)
+
+#49 
