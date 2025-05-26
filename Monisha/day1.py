@@ -383,4 +383,33 @@ for i in l1:
         if(i == j):
             print(i)
 
-#49 
+#49  Perform union, intersection on two sets.
+l1 = {1,2,3}
+l2 = {2,4,5}
+uni = l1.union(l2)
+inter = l1.intersection(l2)
+print(uni)
+print(inter)
+
+
+#50 Remove all even numbers from a list.
+l1 = [2,3,4,5,6,7,8,89]
+l2 = []
+for i in l1:
+    if(i%2!=0):
+        l2.append(i)
+print(l2)
+
+#51 Count occurrences of an element in a list.
+l1 = [2,3,2,5,6,5,8,5]
+result = l1.count(2)
+print(result)
+
+#52  Print elements at even positions in a list.
+l1 = [1,2,4,5,6,7]
+for i in range(len(l1)):
+    if(i%2!=0):
+       print(l1[i])
+
+
+#53 
